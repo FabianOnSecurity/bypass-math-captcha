@@ -1,9 +1,9 @@
 # Bypass Wordpress Math-Captcha
 This script bypass the default Math-Protection Captcha of Wordpress.
-
-## Modifying
-You have to modify the script for a successfull bruteforce attack, e.g.:
-
+![alt-text](https://github.com/FabianOnSecurity/bypass-math-captcha/blob/main/images/math_bypass.jpg)
+## Important notice
+This script needs an all-encompassing modification referring to different structures of websites. This script can give you the idea how to bypass.
+For example:
 ```
 select = Select(driver.find_element(by=By.NAME, value='wpforms[fields][1]'))
 select.select_by_visible_text(<value>)
@@ -12,5 +12,11 @@ select.select_by_visible_text(<value>)
 ```
 
 This script is multi-threaded.
+## How to use
+Install "Selenium" (Firefox Engine) library in your python environment.
+```
+pip install selenium
+```
+
 ## Legal Notice:
 Do not use this script for illegal activities. You are responsible for your own actions.
