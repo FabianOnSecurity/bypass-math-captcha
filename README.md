@@ -1,6 +1,6 @@
 # Bypass Wordpress Math-Captcha
-This script bypass the default Math-Protection Captcha of Wordpress.
 ![alt-text](https://github.com/FabianOnSecurity/bypass-math-captcha/blob/main/images/math_bypass.jpg)
+This script bypass the default Math-Protection Captcha of Wordpress.
 ## Important notice
 This script needs an all-encompassing modification referring to different structures of websites. This script can give you the idea how to bypass.
 For example:
