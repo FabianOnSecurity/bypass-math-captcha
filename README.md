@@ -17,6 +17,6 @@ Install "Selenium" (Firefox Engine) library in your python environment.
 ```
 pip install selenium
 ```
-
+Modify the Python-Script for automating the Spam-Attack. You can use the example above and fill the Select with a Selector-Program like "CSS-Selector" for Firefox. If File-Upload is necessary, you can mostly return the path to file directly (depends on the website).
 ## Legal Notice:
 Do not use this script for illegal activities. You are responsible for your own actions.
